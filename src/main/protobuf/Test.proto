@@ -1,0 +1,5 @@
+package com.hanh;
+
+message T {
+  required int32 i = 1;
+}
