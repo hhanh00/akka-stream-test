@@ -9,4 +9,4 @@ libraryDependencies ++= Seq(
 
 
 lazy val root = Project("hello", file("."), settings = Defaults.defaultSettings ++ scalabuffSettings
-	++ Seq(scalabuffArgs := Seq("--target=2.11.2"))).configs(ScalaBuff)
+	++ Seq(scalabuffArgs := Seq("--target=2.11.2"), scalabuffVersion := "1.3.9")).configs(ScalaBuff)
